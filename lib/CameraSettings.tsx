@@ -10,11 +10,15 @@ import { BackgroundBlur, VirtualBackground } from '@livekit/track-processors';
 import { isLocalTrack, LocalTrackPublication, Track } from 'livekit-client';
 import Desk from '../public/background-images/samantha-gades-BlIhVfXbi9s-unsplash.jpg';
 import Nature from '../public/background-images/ali-kazal-tbw_KQE3Cbg-unsplash.jpg';
+import UM6P_LIBRARY from '../public/background-images/um6p_library.jpg';
+import DICE_UM6P from '../public/background-images/dice_um6p.png';
 
 // Background image paths
 const BACKGROUND_IMAGES = [
   { name: 'Desk', path: Desk },
   { name: 'Nature', path: Nature },
+  { name: 'UM6P Library', path: UM6P_LIBRARY },
+  { name: 'DICE UM6P', path: DICE_UM6P },
 ];
 
 // Background options
